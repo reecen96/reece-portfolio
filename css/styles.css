@@ -10243,3 +10243,7 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
   font-size: 150%;
 }
+
+#portfolioimg{
+border-radius: 25px
+}
