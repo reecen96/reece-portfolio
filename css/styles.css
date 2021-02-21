@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #efeee5;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2437,14 +2437,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #efeee5;
+  color: white;
+  background-color: #141e55;
   border-color: #efeee5;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: blue;
+  border-color: #141e55;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -10246,4 +10246,8 @@ form .row:first-child .floating-label-form-group {
 
 #portfolioimg{
 border-radius: 25px
+}
+
+#black-me{
+  color: black;
 }
