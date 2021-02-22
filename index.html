@@ -31,8 +31,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                <ul class="navbar-nav ml-auto">
+                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
                   <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
                   <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                </ul>
             </div>
@@ -55,6 +55,33 @@
             <p class="masthead-subheading font-weight-light mb-0">Fullstack web developer - front end - back end</p>
          </div>
       </header>
+
+      <!-- About Section-->
+      <section class="page-section bg-primary text-white mb-0" id="about">
+         <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+               <div class="divider-custom-line"></div>
+               <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+               <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+               <div class="col-lg-4 ml-auto">
+                  <p class="lead">I am a software engineer with a background In property management and
+                     property valuation. I have a passion for tech and enjoy problem solving and
+                     logical processes. I am currently studying a Masters in Information Systems.
+                  </p>
+               </div>
+               <div class="col-lg-4 mr-auto">
+                  <p class="lead">All through my life I've had a passion for all things tech. From building my first computer to making games, building flight simulators and playing around with microcontrollers. <br> Please find my resume here:    <a href="assets/img/portfolio/reece_resume_2021.pdf">resume</a>.</p>
+               </div>
+            </div>
+            <!-- About Section Button-->
+         </div>
+      </section>
       <!-- Portfolio Section-->
       <section class="page-section portfolio" id="portfolio">
          <div class="container">
@@ -125,32 +152,7 @@
             </div>
          </div>
       </section>
-      <!-- About Section-->
-      <section class="page-section bg-primary text-white mb-0" id="about">
-         <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-               <div class="divider-custom-line"></div>
-               <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-               <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="row">
-               <div class="col-lg-4 ml-auto">
-                  <p class="lead">I am a software engineer with a background In property management and
-                     property valuation. I have a passion for tech and enjoy problem solving and
-                     logical processes. I am currently studying a Masters in Information Systems.
-                  </p>
-               </div>
-               <div class="col-lg-4 mr-auto">
-                  <p class="lead">All through my life i've had a passion for all things tech. From building my first computer to making games, building flight simulators and playing around with microcontrollers.   </p>
-               </div>
-            </div>
-            <!-- About Section Button-->
-         </div>
-      </section>
+
       <!-- Contact Section-->
       <section class="page-section" id="contact">
          <div class="container">
@@ -229,7 +231,6 @@
                               <div class="divider-custom-line"></div>
                            </div>
                            <!-- Portfolio Modal - Image-->
-                           <h3> description </h3>
                            <p class="mb-5">The Arduino has been programmed in 'a c/c++' to post data to a server cyclically and water plants when their soil moisture falls below a certain %.
                               On a specified interval the Arduino collects data (soil moisture, water level, temperature) and posts it as a JSON request to a Node.js/React/Mongodb server.
                               This date is then access from a React front end where the data is graphed and analysed.
@@ -320,7 +321,6 @@
                               <div class="divider-custom-line"></div>
                            </div>
                            <!-- Portfolio Modal - Image-->
-                           <h3> description </h3>
                            <p class="mb-5">Preparing for your first interview as a software developer (web)? Well, we have the game for you. Play and prepare for your next in real life interview by applying for a job at Tech Job Corp. <br> Tech job corp is an artificial fake news non-existent maybe not real company
                            </p>
                            </p>
@@ -381,7 +381,6 @@
                            </div>
                            <!-- Portfolio Modal - Image-->
                            <br>
-                           <h3> description </h3>
                            <p class="mb-5">The Button Box was created to be used with a computer as a programmable device. I build the Box to use with simulators (ie Flight simulators & racing simulators.) Each of the 11 buttons are programmable</p>
                            <br>
                            <div>
@@ -393,22 +392,18 @@
                               <br> <br>
                               <img src="assets/img/portfolio/buttonbox3.jpg" class="d-block w-100 rounded" alt="...">
                               <h6> Required components </h6>
-                              <br> <br>
-                              <br> <br>
+
+
                            </div>
                            <!-- Portfolio Modal - Text-->
-                           <div class="row">
-                              <div class="col-lg-4 ml-auto">
-                                 <p class="lead">
+                           <p>
                                  <h3> Tech </h3>
                                  <p>
                                     a c/c++ <br>
                                     USB Arduino interface
                                  </p>
                                  </p>
-                              </div>
-                              <div class="col-lg-4 mr-auto">
-                                 <p class="lead">
+                                 <p>
                                  <h3> components </h3>
                                  <p>
                                     - Arduino Leonardo<br>
@@ -417,8 +412,9 @@
                                     - Micro USB cable <br>
                                  </p>
                                  </p>
-                              </div>
-                           </div>
+                                 <br>
+
+
                            <button class="btn btn-primary" data-dismiss="modal">
                            <i class="fas fa-times fa-fw"></i>
                            Close Window
@@ -450,7 +446,6 @@
                               <div class="divider-custom-line"></div>
                            </div>
                            <!-- Portfolio Modal - Image-->
-                           <h3> description </h3>
                            <p> This application was created to connect tenants and Landlords together with an easy to use interface. Fairy Floss is an extension of the already existing Melbourne based Facebook page that allowed tenants to connect with potential roommates for lease transfers and room listings. Fair Floss allows for a user to List their a rental home or room, apply for a listing, create a user profile and manager their applications and listings. Implemented in the application is a Ruby Gem which shows listed properies on Google maps, user Authentication and an admin dashboard.</p>
                            <br>
                            <div>
@@ -512,7 +507,6 @@
                               <div class="divider-custom-line"></div>
                            </div>
                            <!-- Portfolio Modal - Image-->
-                           <h3> description </h3>
                            <p> ⚔ Tic-Tac-Foe ⚔
                               <br> My project incorporates HTML, CSS, JS & Jquery to create an interactive game of tic-tac-toe. The project involves the mechanics & rules of tic tac toe, game scoring, timing, different board sized, animations, interactive menus, local storage and computer controlled players.
                            </p>
@@ -570,7 +564,6 @@
                               <div class="divider-custom-line"></div>
                            </div>
                            <!-- Portfolio Modal - Image-->
-                           <h3> description </h3>
                            <p> The aim of this project is to build a speaker that is a louder and cheaper alternative to portable speakers such as the Megaboom and the JBL extreme. The speaker was built using hard rubish and second hand parts found online. The speaker has a 9 hour battery life, an output of 200 decebels and a total cost was less than $150.00. In comparison a Megaboom has a battery life of 14 hours, an output of 90 decebels and a total cost of $400.00. The speaker runs of two 12v 7.4mha batteries, running in parralel, powering a 820w car amplifier. The amplifier powers two efficient 6x9 Kenwood speakers and is turned on and off using an external switch. The battery voltage, used to determine the remaining power in the batteries, is monitored using an LCD voltage sensor and the batteries are recharged using a lipo battery charger. Accoustic foam was not needed in this build as the travel case used as the speaker housing already has foam padding.</p>
                            <br>
                            <div>
