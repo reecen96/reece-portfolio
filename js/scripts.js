@@ -4,7 +4,6 @@
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
     */
 
-    console.log("Welcome to the log, Please hire me :)")
     (function($) {
     "use strict"; // Start of use strict
 
