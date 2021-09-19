@@ -10251,3 +10251,14 @@ border-radius: 25px
 #black-me{
   color: black;
 }
+
+#daytona{
+  display: block;
+  max-width: 40%;
+  height: auto;
+
+}
+
+#headblog{
+  size:10%;
+}
